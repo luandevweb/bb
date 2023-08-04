@@ -1,0 +1,146 @@
+
+
+body {
+    background-image: url("../img/background.jpg");
+    background-position: center ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome-nome{
+    font-size: 18px;
+}
+
+
+.titular{
+    margin: 0 0 0 -130px;
+    font-size: 18px;
+    color: #9B900B;
+}
+
+
+.cabecalho {
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.img{
+margin: 0 0 0 -40px;
+}
+
+.img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+
+.nome {
+    margin: 15px 0 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.senha {
+    position: relative;
+    margin: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#senha-dois{
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    font-size: 24px;
+}
+
+.senha input{
+    font-size: 24px;
+    padding: 0 0 0 280px;
+    color: black;
+    background-color: #FFF000;
+    border: none;
+    width: 400px;
+    height: 50px;
+}
+
+.senha input:focus{
+    border: none;
+    outline: none;
+}
+
+.senha button {
+    margin: 12px 0 0 0;
+    width: 380px;
+    height: 60px;
+    background-color: #0060BF;
+    border:none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.color{
+    margin: -25px 0 0 0;
+    color:#84AE43;
+}
+
+.outra {
+    font-size: 20px;
+    margin: 80px 0 20px -220px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap ;
+    gap: 30px;
+
+}
+
+.linkedit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluelinks{
+   color: #055D96;
+   font-weight: bold;
+}
+
+.rodape{
+    padding: 5px 0;
+    background-color: #FFF000;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.ligue{
+    font-size: 25px;
+    color:#003285;
+}
+
+#bb {
+    width: 50%;
+}
+
+#wpp{
+    width: 10%;
+}
+
